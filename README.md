@@ -1,0 +1,4 @@
+# notes
+
+* html
+* css
