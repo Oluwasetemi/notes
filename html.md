@@ -761,7 +761,7 @@ HTML Tables
 
   
 
-`captio`n - defines the title of a `<table>` | Block | Closing
+`caption` - defines the title of a `<table>` | Block | Closing
 
   
 
