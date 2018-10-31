@@ -70,7 +70,7 @@ NB - Naming of files convention and folder structure arrangement will be worth p
 
 Example 1
 
-Exercise 1 - Writing your first html page with the following tags
+Exercise 1 - Write your first html page with the following tags
 
   
 
