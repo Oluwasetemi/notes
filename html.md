@@ -15,7 +15,7 @@ objectives
 * Understand the difference between closing and self closing tags
 * Understand Block Element and Inline Elements
 * Write HTML Tags with basic attributes
-* Use multimedia tags like audio, video, images
+* Use Multimedia tags like audio, video, images
 * Write CSS inside HTML with the style attribute and the style tag
 
   
@@ -30,7 +30,7 @@ HTML uses "markup" to annotate text, images, and other content for display in a 
 
   
 
-Tags in HTML are case insensitive. That is, they can be written in uppercase, lowercase, or a mixture. Example `<title>` tag can be written as `<Title>,</TiTlE>`or in any other way.
+Tags in HTML are case insensitive. That is, they can be written in uppercase, lowercase, or a mixture. Example: `<title>` tag can be written as `<Title>,</TiTlE>`or in any other way.
 
   
 
@@ -116,7 +116,7 @@ Element or Tags
 
 HTML (Hypertext Markup Language) elements are usually either "block-level" elements or "inline" elements.
 
-type:
+types:
 
 block  - A block-level element occupies the entire space of its parent element (container), thereby creating a "block."
 
@@ -761,7 +761,7 @@ HTML Tables
 
   
 
-`captio`n - defines the title of a `<table>` | Block | Closing
+`caption` - defines the title of a `<table>` | Block | Closing
 
   
 
