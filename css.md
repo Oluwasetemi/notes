@@ -86,8 +86,7 @@ p {}
 img, audio, video {}
 ```
 
-2. ID - The ID provides a unique name for an HTML element. could be either the ID directly or a more specific element with it's specific id `Element#myid`.
-It is very specific and powerful. Don't use in an overly way. Denoted by #.
+2. ID - The ID provides a unique name for an HTML element. could be either the ID directly or a more specific element with it's specific id `Element#myi`.It is very specific and powerful. Don't use in an overly way. Denoted by #.
 
 ```css
 #ID {}
@@ -95,7 +94,7 @@ It is very specific and powerful. Don't use in an overly way. Denoted by #.
 Element#ID {}
 ```
 
-3. Class - very similar to ID , denoted by . and can also stand alone or be combined with an Element.
+1. Class - very similar to ID , denoted by . and can also stand alone or be combined with an Element.
 
 ```css
 Element.class OR .class.class {}
@@ -288,7 +287,7 @@ Create a form for registering participant for a meeting in your organization
 
 *CSS Advanced
 
-### Layout Modes
+### [Layout Modes](http://learnlayout.com/)
 
 CSS Flex and CSS  Grid
 I will be explain modern layout systems using flex box and grid systems. We will examine critically the the display and the positional edge in every rendered element to give us a clear view as to how we can arranged the generated boxes to make meaning to our users.
@@ -311,3 +310,4 @@ Reference
 ### Exercise
 
 ![Do it now](image/exercise.png)
+[Projects](https://getbootstrap.com/docs/4.0/examples/)
