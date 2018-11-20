@@ -1,5 +1,5 @@
 
-Table of content
+# Table of content
 
  **Objectives**
 
@@ -27,6 +27,7 @@ HTML Style tags,
 External style using link tag
 
 ### CSS Syntax
+
 ```css
 selectorlist {
   property: value;
@@ -136,10 +137,10 @@ Element.class {}
 
 20. The after pseudo-element -
 
-
 [Sizzle](https://sizzlejs.com) - A pure-JavaScript CSS selector engine designed to be easily dropped in to a host library.
 
 ### Specificity and inheritance and cascading
+
 Specificity is the means by which browsers decide which CSS property values are the most relevant to an element and, therefore, will be applied.
 
 Specificity is based on the matching rules which are composed of different sorts of CSS selectors.As per CSS rules, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. Specificity only applies when the same element is targeted by multiple declarations.
@@ -173,22 +174,26 @@ Note: Universal selector (*), combinators (+, >, ~, ' ') and negation pseudo-cla
 
 The following table shows a few isolated examples to get you in the mood. Try going through these, and making sure you understand why they have the specificity that we have given them.
 
-![specificity examples]()
+![specificity examples](/image/selectorsExample.png)
+
 Note: If multiple selectors have the same importance and specificity, which selector wins is decided by which comes later in the Source order.
 
 ### Inheritance In CSS
+
 inheritance controls what happens when no value is specified for a property on an element.
 
 Refer to any CSS property definition to see whether a specific property inherits by default ("Inherited: yes") or not ("Inherited: no").
 
-
 #### Inherited Properties
+
 When no value for an inherited property has been specified on an element, the element gets the computed value of that property on its parent element. Only the root element of the document gets the initial value given in the property's summary.
 
 #### Non-inherited Properties
+
 When no value for a non-inherited property has been specified on an element, the element gets the initial value of that property (as specified in the property's summary).
 
-#### Cascade
+### Cascade
+
 The cascade is an algorithm that defines how to combine property values originating from different sources. It lies at the core of CSS, as emphasized by the name: Cascading Style Sheets.
 This article explains what the cascade is, the order in which CSS declarations cascade, and how this affects you, the web developer.
 The CSS cascade algorithm's job is to select CSS declarations in order to determine the correct values for CSS properties.
@@ -206,12 +211,13 @@ Though style sheets come from these different origins, they overlap in scope; to
 
 3. In case of equality, the specificity of a value is considered to choose one or the other.
 
-
 ## Box Model
+
 let's introduce box-sizing! It is a CSS property that defines how to calculate the total width and height of an element.
 content-box gives you the default CSS box-sizing behaviour.
 If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width. while * border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.
 
+![Box Model](image/box-model.png)
 
 CSS Basic Box Model is a module of CSS that defines the rectangular boxes—including their padding and margin—that are generated for elements and laid out according to the visual formatting model. This model defines how CSS lays out elements, including their content, padding, border, and margin areas.
 
@@ -229,7 +235,11 @@ The padding area, bounded by the padding edge, extends the content area to inclu
 
 * border edge
 
-The border area, bounded by the border edge, extends the padding area to include the element's borders. Its dimensions are the border-box width and the border-box height.The thickness of the borders are determined by the border-width and shorthand border properties. If the box-sizing property is set to border-box, the border area's size can be explicitly defined with the width, min-width, max-width, height, min-height, and max-height properties. When there is a background (background-color or background-image) set on a box, it extends to the outer edge of the border (i.e. extends underneath the border in z-ordering). This default behavior can be altered with the background-clip css property.background-clip: border-box | padding-box | content-box | text
+The border area, bounded by the border edge, extends the padding area to include the element's borders. Its dimensions are the border-box width and the border-box height.The thickness of the borders are determined by the border-width and shorthand border properties. If the box-sizing property is set to border-box, the border area's size can be explicitly defined with the width, min-width, max-width, height, min-height, and max-height properties. When there is a background (background-color or background-image) set on a box, it extends to the outer edge of the border (i.e. extends underneath the border in z-ordering). This default behavior can be altered with the background-clip css property.
+
+```css
+  background-clip: border-box | padding-box | content-box | text
+```
 
 * margin edge
 
@@ -238,21 +248,48 @@ The margin area, bounded by the margin edge, extends the border area to include 
 The size of the margin area is determined by the margin-top, margin-right, margin-bottom,margin-left, and shorthand margin properties.
 When margin collapsing occurs, the margin area is not clearly defined since margins are shared between boxes.
 
-Properties controlling the flow of content in a oxoverflowoverflow-xoverflow-y
-Properties controlling the size of a boxheightwidthmax-heightmax-widthmin-heightmin-width
-Properties controlling the margins of a boxmarginmargin-bottommargin-leftmargin-rightmargin-top
-Properties controlling the paddings of a boxpaddingpadding-bottompadding-leftpadding-rightpadding-top
+Properties controlling the flow of content in a box
+
+* overflow
+* overflow-x
+* overflow-y
+
+Properties controlling the size of a box
+
+* height
+* width
+* max-height
+* max-width
+* min-height
+* min-width
+
+Properties controlling the margins of a box
+
+* margin
+* margin-bottom
+* margin-left
+* margin-right
+* margin-top
+
+Properties controlling the paddings of a box
+
+* padding
+* padding-bottom
+* padding-left
+* padding-right
+* padding-top
 
 Other properties visibility
 
 ### CSS Backgrounds and Borders: Using multiple backgrounds
 
-Exercise
 Create a form for registering participant for a meeting in your organization
 *use html 5 form validation
 
 *CSS Advanced
+
 ### Layout Modes
+
 CSS Flex and CSS  Grid
 I will be explain modern layout systems using flex box and grid systems. We will examine critically the the display and the positional edge in every rendered element to give us a clear view as to how we can arranged the generated boxes to make meaning to our users.
 
@@ -267,5 +304,10 @@ Basic styling with space management
 CSS Variables  and CSS types(data types) with possible values
 CSS Frameworks - BootstrapCSS Project
 Reference
+
 * [css reference io](https://cssreference.io)
 * [CSS Selector Game](http://flukeout.github.io/)
+
+### Exercise
+
+![Do it now](image/exercise.png)
