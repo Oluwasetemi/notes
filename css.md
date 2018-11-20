@@ -158,6 +158,7 @@ Rules to Note on Specificity
 * Type selectors and pseudo-elements.
 
 The !important exception
+
 The amount of specificity a selector has is measured using four different values (or components), which can be thought of as thousands, hundreds, tens and ones — four single digits in four columns:
 
 1. Thousands: Score one in this column if the declaration is inside a style attribute (such declarations don't have selectors, so their specificity is always simply 1000.) Otherwise 0.
@@ -169,7 +170,10 @@ The amount of specificity a selector has is measured using four different values
 4. Ones: Score one in this column for each element selector or pseudo-element contained inside the overall selector.
 
 Note: Universal selector (*), combinators (+, >, ~, ' ') and negation pseudo-class (:not)have no effect on specificity.
+
 The following table shows a few isolated examples to get you in the mood. Try going through these, and making sure you understand why they have the specificity that we have given them.
+
+![specificity examples]()
 Note: If multiple selectors have the same importance and specificity, which selector wins is decided by which comes later in the Source order.
 
 ### Inheritance In CSS
