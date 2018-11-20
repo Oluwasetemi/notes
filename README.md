@@ -2,4 +2,4 @@
 
 * [html](html.md)
 * [css](css.md)
-  * [selector](selector.md)
+  * [selector](selectors.md)
