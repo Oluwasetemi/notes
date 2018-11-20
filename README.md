@@ -1,4 +1,5 @@
 # notes
 
 * [html](html.md)
-* css
+* [css](css.md)
+  * [selector](selector.md)
