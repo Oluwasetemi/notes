@@ -9,9 +9,9 @@ Table of content
 4. Adding CSS to an html document-internal, in-line, external
 5. Writing CSS proficiently
 
-<p> <a href="https://meyerweb.com/eric/tools/css/reset/">CSS Reset</a> The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings,  </p>
+[*CSS Reset*](https://meyerweb.com/eric/tools/css/reset/) The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings
 
-<p> <a href="https://necolas.github.io/normalize.css/">CSS Normalize</a> makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. </p>
+[*CSS Normalize*](https://necolas.github.io/normalize.css/) makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
 
 CSS Basics
 CSS Introduction
