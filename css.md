@@ -94,7 +94,7 @@ img, audio, video {}
 Element#ID {}
 ```
 
-1. Class - very similar to ID , denoted by . and can also stand alone or be combined with an Element.
+3. Class - very similar to ID , denoted by . and can also stand alone or be combined with an Element.
 
 ```css
 Element.class OR .class.class {}
